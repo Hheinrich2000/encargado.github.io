@@ -8,9 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
+
+# Exclude dist for development, but allow it for GitHub Pages deployment
+# Uncomment the line below to ignore dist during development
+# dist
 
 # Editor directories and files
 .vscode/*
